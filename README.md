@@ -1,2 +1,2 @@
-# mcc
-Mike's Coding Courses
+# MCC - Mike's Coding Courses
+
