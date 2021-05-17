@@ -1,0 +1,12 @@
+version: "2"
+services:
+  postgresql:
+    image: postgres:12
+    container_name: docker-postgresql
+    user: root
+    ports:
+      - 5432:5432
+    volumes:
+      - ~/apps/postgresql:/var/lib/postgresql
+    environment:
+      - POSTGRES_PASSWORD=abcd.1234

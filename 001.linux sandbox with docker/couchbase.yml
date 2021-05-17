@@ -1,0 +1,7 @@
+version: "2"
+services:
+  couchbase:
+    image: couchbase:6.6.0
+    container_name: docker-couchbase
+    ports:
+      - 8091-8094:8091-8094
